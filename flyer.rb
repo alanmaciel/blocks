@@ -18,5 +18,7 @@ flyers = []
   flyers << Flyer.new("Flyer #{n}", "flyer#{n}@example.com", n * 1000) 
 end
 
-puts flyers
+flyers.each do |flyer|
+  puts "#{flyer.name} - #{flyer.miles_flown} miles"
+end
 
