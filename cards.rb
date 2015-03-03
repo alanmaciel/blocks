@@ -1,4 +1,4 @@
 cards = ["Jack", "Queen", "King", "Ace", "Jocker"]
 
-cards.shuffle.each { |c| puts "#{c.upcase} - #{c.length}" }
+cards.reverse_each { |c| puts "#{c.upcase} - #{c.length}" }
 
