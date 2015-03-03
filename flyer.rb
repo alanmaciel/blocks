@@ -30,3 +30,9 @@ end
 
 puts "Total miles flown: #{sum}"
 
+promotions = { "United" => 1.5, "Delta" => 2.0, "Lufthansa" => 2.5 }
+
+promotions.each do |airline, miles|
+  puts "Earn #{miles}x miles by flying #{airline}!"
+end
+
