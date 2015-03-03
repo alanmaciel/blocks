@@ -1,1 +1,5 @@
-puts "Let´s start mastering Ruby blocks!"
+5.times do
+  puts "situp"
+  puts "pushup"
+  puts "chinup"
+end
